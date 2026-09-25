@@ -1,0 +1,6 @@
+{
+  "name": "Personal Portfolio Website",
+  "description": "A modern, elegant multi-page personal portfolio website built with plain HTML and CSS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

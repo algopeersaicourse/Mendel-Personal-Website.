@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio Website</title>
+  <meta name="description" content="A modern, elegant multi-page personal portfolio website built with plain HTML and CSS.">
+  <meta property="og:title" content="Personal Portfolio Website">
+  <meta property="og:description" content="A modern, elegant multi-page personal portfolio website built with plain HTML and CSS.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- Site Navigation Bar -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand-logo">
+        <span class="brand-dot"></span>
+        [Your Name]
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="skills.html" class="nav-link">Skills</a></li>
+          <li><a href="fun-facts.html" class="nav-link">Fun Facts</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="contact.html" class="btn btn-sm btn-primary">Get In Touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <div class="hero-content">
+            <span class="hero-greeting">👋 Hello, Welcome to My Portfolio</span>
+            <h1 class="hero-title">I'm <span class="highlight">[Your Name]</span></h1>
+            <p class="hero-intro">[Your Short Introduction]</p>
+            
+            <div class="hero-cta-group">
+              <a href="projects.html" class="btn btn-primary">
+                View My Projects
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+              </a>
+              <a href="contact.html" class="btn btn-secondary">Contact Me</a>
+            </div>
+          </div>
+
+          <div class="hero-media">
+            <!-- ======================================================================
+                 PROFILE IMAGE PLACEHOLDER
+                 To use your actual profile photo:
+                 1. Add your image file (e.g., profile.jpg) to this project directory.
+                 2. Replace this entire .profile-placeholder-box div with:
+                    <img src="profile.jpg" alt="[Your Name] Profile Photo" style="width:100%; max-width:380px; border-radius:24px; box-shadow:0 12px 28px -4px rgba(15,23,42,0.1);">
+                 ====================================================================== -->
+            <div class="profile-placeholder-box">
+              <div class="avatar-icon">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+              </div>
+              <div class="placeholder-label">[INSERT PROFILE IMAGE HERE]</div>
+              <p class="placeholder-hint">Recommended: Square headshot (400 &times; 400px)<br>See HTML comment above to insert your photo.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me, My Interests & My Goals -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Overview</span>
+          <h2>About Me & Aspirations</h2>
+        </div>
+
+        <div class="about-grid">
+          
+          <!-- About Me Card -->
+          <div class="info-card">
+            <div class="card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+            </div>
+            <h3>About Me</h3>
+            <div class="content-text">
+              <p>[Write about yourself here]</p>
+            </div>
+          </div>
+
+          <!-- My Interests Card -->
+          <div class="info-card">
+            <div class="card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            </div>
+            <h3>My Interests</h3>
+            <div class="content-text">
+              <p>[Your Interests]</p>
+            </div>
+          </div>
+
+          <!-- My Goals Card -->
+          <div class="info-card">
+            <div class="card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>
+            </div>
+            <h3>My Goals</h3>
+            <div class="content-text">
+              <p>[Your Goals]</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Navigation Highlights -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-tag">Explore Portfolio</span>
+          <h2>Explore More Pages</h2>
+          <p>Discover my latest projects, technical competencies, creative background, and direct contact avenues.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="info-card">
+            <h3>Featured Projects</h3>
+            <p class="content-text">Browse through 10 curated project cards with live demos, repositories, and technical breakdowns.</p>
+            <div style="margin-top: 1.5rem;">
+              <a href="projects.html" class="btn btn-sm btn-outline">Explore Projects &rarr;</a>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <h3>Core Skills</h3>
+            <p class="content-text">An overview of 10 essential technical and professional skills that drive my work.</p>
+            <div style="margin-top: 1.5rem;">
+              <a href="skills.html" class="btn btn-sm btn-outline">View Skills &rarr;</a>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <h3>Fun Facts & Media</h3>
+            <p class="content-text">Get to know the person behind the code: hobbies, favorite things, fun facts, and media showcases.</p>
+            <div style="margin-top: 1.5rem;">
+              <a href="fun-facts.html" class="btn btn-sm btn-outline">Discover Fun Facts &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo">
+            <span class="brand-dot"></span>
+            [Your Name]
+          </a>
+          <p>Personal Portfolio Website built with clean, semantic HTML and CSS.</p>
+        </div>
+        <ul class="footer-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="fun-facts.html">Fun Facts</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 [Your Name]. All rights reserved.</p>
+        <p>Designed with pure HTML &amp; CSS &bull; Ready for Vercel Deployment</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
